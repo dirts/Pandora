@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B66F8628504DEDAD9916816C /* Pods_Pandora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2478353B778A942DF1CAE4 /* Pods_Pandora.framework */; };
+		F636B5AC23DDDD08001D3BB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F636B5AB23DDDD08001D3BB0 /* AppDelegate.swift */; };
+		F636B5AE23DDDD08001D3BB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F636B5AD23DDDD08001D3BB0 /* ViewController.swift */; };
+		F636B5B123DDDD08001D3BB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F636B5AF23DDDD08001D3BB0 /* Main.storyboard */; };
+		F636B5B323DDDD0B001D3BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F636B5B223DDDD0B001D3BB0 /* Assets.xcassets */; };
+		F636B5B623DDDD0B001D3BB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F636B5B423DDDD0B001D3BB0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF2478353B778A942DF1CAE4 /* Pods_Pandora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pandora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22DD9F6850084F3D870E082 /* Pods-Pandora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pandora.release.xcconfig"; path = "Target Support Files/Pods-Pandora/Pods-Pandora.release.xcconfig"; sourceTree = "<group>"; };
+		E4B149F94656BDC442CF1CCE /* Pods-Pandora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pandora.debug.xcconfig"; path = "Target Support Files/Pods-Pandora/Pods-Pandora.debug.xcconfig"; sourceTree = "<group>"; };
+		F636B5A823DDDD08001D3BB0 /* Pandora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pandora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F636B5AB23DDDD08001D3BB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F636B5AD23DDDD08001D3BB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F636B5B023DDDD08001D3BB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F636B5B223DDDD0B001D3BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F636B5B523DDDD0B001D3BB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F636B5B723DDDD0B001D3BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F636B5A523DDDD08001D3BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66F8628504DEDAD9916816C /* Pods_Pandora.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BF00A61F33414ED7A548755 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4B149F94656BDC442CF1CCE /* Pods-Pandora.debug.xcconfig */,
+				E22DD9F6850084F3D870E082 /* Pods-Pandora.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7B10A586352CA09321D16812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF2478353B778A942DF1CAE4 /* Pods_Pandora.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F636B59F23DDDD08001D3BB0 = {
+			isa = PBXGroup;
+			children = (
+				F636B5AA23DDDD08001D3BB0 /* Pandora */,
+				F636B5A923DDDD08001D3BB0 /* Products */,
+				6BF00A61F33414ED7A548755 /* Pods */,
+				7B10A586352CA09321D16812 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F636B5A923DDDD08001D3BB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F636B5A823DDDD08001D3BB0 /* Pandora.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F636B5AA23DDDD08001D3BB0 /* Pandora */ = {
+			isa = PBXGroup;
+			children = (
+				F636B5AB23DDDD08001D3BB0 /* AppDelegate.swift */,
+				F636B5AD23DDDD08001D3BB0 /* ViewController.swift */,
+				F636B5AF23DDDD08001D3BB0 /* Main.storyboard */,
+				F636B5B223DDDD0B001D3BB0 /* Assets.xcassets */,
+				F636B5B423DDDD0B001D3BB0 /* LaunchScreen.storyboard */,
+				F636B5B723DDDD0B001D3BB0 /* Info.plist */,
+			);
+			path = Pandora;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F636B5A723DDDD08001D3BB0 /* Pandora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F636B5BA23DDDD0B001D3BB0 /* Build configuration list for PBXNativeTarget "Pandora" */;
+			buildPhases = (
+				BC7FBD1A082210FA3E1AD2C7 /* [CP] Check Pods Manifest.lock */,
+				F636B5A423DDDD08001D3BB0 /* Sources */,
+				F636B5A523DDDD08001D3BB0 /* Frameworks */,
+				F636B5A623DDDD08001D3BB0 /* Resources */,
+				ED24226B10D3CDA88737BCBD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pandora;
+			productName = Pandora;
+			productReference = F636B5A823DDDD08001D3BB0 /* Pandora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F636B5A023DDDD08001D3BB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Apach3;
+				TargetAttributes = {
+					F636B5A723DDDD08001D3BB0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F636B5A323DDDD08001D3BB0 /* Build configuration list for PBXProject "Pandora" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F636B59F23DDDD08001D3BB0;
+			productRefGroup = F636B5A923DDDD08001D3BB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F636B5A723DDDD08001D3BB0 /* Pandora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F636B5A623DDDD08001D3BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F636B5B623DDDD0B001D3BB0 /* LaunchScreen.storyboard in Resources */,
+				F636B5B323DDDD0B001D3BB0 /* Assets.xcassets in Resources */,
+				F636B5B123DDDD08001D3BB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC7FBD1A082210FA3E1AD2C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pandora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED24226B10D3CDA88737BCBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pandora/Pods-Pandora-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pandora/Pods-Pandora-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pandora/Pods-Pandora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F636B5A423DDDD08001D3BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F636B5AE23DDDD08001D3BB0 /* ViewController.swift in Sources */,
+				F636B5AC23DDDD08001D3BB0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F636B5AF23DDDD08001D3BB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F636B5B023DDDD08001D3BB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F636B5B423DDDD0B001D3BB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F636B5B523DDDD0B001D3BB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F636B5B823DDDD0B001D3BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		F636B5B923DDDD0B001D3BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F636B5BB23DDDD0B001D3BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4B149F94656BDC442CF1CCE /* Pods-Pandora.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pandora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apach3.Pandora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F636B5BC23DDDD0B001D3BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22DD9F6850084F3D870E082 /* Pods-Pandora.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pandora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apach3.Pandora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F636B5A323DDDD08001D3BB0 /* Build configuration list for PBXProject "Pandora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F636B5B823DDDD0B001D3BB0 /* Debug */,
+				F636B5B923DDDD0B001D3BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F636B5BA23DDDD0B001D3BB0 /* Build configuration list for PBXNativeTarget "Pandora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F636B5BB23DDDD0B001D3BB0 /* Debug */,
+				F636B5BC23DDDD0B001D3BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F636B5A023DDDD08001D3BB0 /* Project object */;
+}
